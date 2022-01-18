@@ -20,7 +20,7 @@ module ReplaceWithAlphabetPosition
         end
 
         # return text alphabet_position (into a string)
-        return position_string.join(',')
+        return position_string.join(',').gsub(",", " ")
         
         # alphabet_position("The sunset sets at twelve o' clock.")
     end 
