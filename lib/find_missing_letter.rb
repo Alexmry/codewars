@@ -2,21 +2,15 @@ module FindMissingLetter
 
     def find_missing_letter(arr)
 
-        array_alphabet = ('a'..'z').to_a
+        # Create a new array that starts at the 1st element of this array
+        array_with_missing_letter = arr[0].upto(arr.last).to_a
 
-
-
-        # For the array, start at the 1dt element of this array
-
-        # compare it to alphabet Array and which letter is missing
-
-    
-
+        # compare it to Arr and check which letter is missing
         missing_letter = []
 
-        array_alphabet.each do |l|
+        array_with_missing_letter.each do |l|
             if arr.index(l)
-                puts "#{l} exists in the array"
+                puts ""
             else 
                 #add the missing letter
                 missing_letter << l 
@@ -24,16 +18,9 @@ module FindMissingLetter
         end
 
         # return the missing letter || or nil if no letter is missing
-
+        return missing_letter
     end
 
 end
 
-
-array_alphabet.each do |l|
-    if ["a","b","c","d","f"].index(l)
-        puts "#{l} exists in the array"
-    else 
-        missing_letter << l 
-    end
-end
+# find_missing_letter(["a","b","c","d","f"])
