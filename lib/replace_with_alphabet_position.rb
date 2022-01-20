@@ -23,5 +23,6 @@ module ReplaceWithAlphabetPosition
         return position_string.join(',').gsub(",", " ")
         
         # alphabet_position("The sunset sets at twelve o' clock.")
-    end 
+    end
+    
 end
