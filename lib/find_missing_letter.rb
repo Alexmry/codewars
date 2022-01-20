@@ -24,3 +24,9 @@ module FindMissingLetter
 end
 
 # find_missing_letter(["a","b","c","d","f"])
+
+
+
+# def find_missing_letter(arr)
+#     ((arr.first..arr.last).to_a - arr).first
+# end
