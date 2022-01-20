@@ -18,7 +18,7 @@ module FindMissingLetter
         end
 
         # return the missing letter || or nil if no letter is missing
-        return missing_letter
+        return missing_letter.join("")
     end
 
 end

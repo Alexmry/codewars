@@ -22,7 +22,9 @@ module ReplaceWithAlphabetPosition
         # return text alphabet_position (into a string)
         return position_string.join(',').gsub(",", " ")
         
-        # alphabet_position("The sunset sets at twelve o' clock.")
+       
     end
 #text.gsub(/[^a-z]/i, '').chars.map{ |c| c.downcase.ord - 96 }.join(' ')
 end
+
+ # alphabet_position("The sunset sets at twelve o' clock.")
