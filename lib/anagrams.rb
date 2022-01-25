@@ -1,3 +1,5 @@
+require 'set'
+
 def anagrams(word, words)
     array_splitted_words = []
     splitted_word = word.split('')
@@ -12,9 +14,10 @@ def anagrams(word, words)
 
     anagrams = []
     array_splitted_words.each do |wo|
-      if splitted_word - wo = []
-        anagrams << wo
-      end
+    #   if splitted_word - wo = []
+        if splitted_word.to_set == wo.to_set
+            anagrams << wo.join("")
+        end
     end
 
     return anagrams
@@ -27,3 +30,4 @@ puts "#{anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada'])}"
 
 
 # [1, 2, 1].to_set == [2, 1, 1].to_set 
+['a', 'a', 'b', 'b'].to_set == ['b', 'b','a','a'].to_set 
