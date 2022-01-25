@@ -24,6 +24,8 @@ def anagrams(word, words)
 
 end
 
+# words.select { |w| word.downcase.split('').sort == w.downcase.split('').sort }
+
 puts "#{anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada'])}"
 
 # anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) => ['aabb', 'bbaa']
