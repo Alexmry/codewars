@@ -23,7 +23,7 @@ module FindMissingLetter
 
 end
 
-# find_missing_letter(["a","b","c","d","f"])
+# find_missing_letter(["a","b","c","d","f"]) => "e"
 
 
 
