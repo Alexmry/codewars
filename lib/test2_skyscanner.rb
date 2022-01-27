@@ -19,23 +19,23 @@ def solution(arr)
     second_branch = []
     negative_number = []
 
-    array_without_the_first_node.each_with_index do |b, index|
-        if index.odd?
-            b > 0 ? first_branch << b : negative_number << b
-            # first_branch << index
-        elsif index.even?
-            b > 0 ? second_branch << b : negative_number << b
-            # second_branch << index
-        end
-    end 
+    # array_without_the_first_node.each_with_index do |b, index|
+    #     if index.odd?
+    #         b > 0 ? first_branch << b : negative_number << b
+    #         # first_branch << index
+    #     elsif index.even?
+    #         b > 0 ? second_branch << b : negative_number << b
+    #         # second_branch << index
+    #     end
+    # end 
 
-    # array_without_the_first_node.values_at(* array_without_the_first_node.each_index.select {|i| i.even?})
+    first_branch = array_without_the_first_node.values_at(* array_without_the_first_node.each_index.select {|i| i.even?})
 
-    # array_without_the_first_node.values_at(* array_without_the_first_node.each_index.select {|i| i.odd?})
+    second_branch = array_without_the_first_node.values_at(* array_without_the_first_node.each_index.select {|i| i.odd?})
 
-    # return first_branch
+     return first_branch
     # return second_branch
-    return negative_number
+    # return negative_number
 end
 
 
