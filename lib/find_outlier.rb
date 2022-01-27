@@ -12,9 +12,9 @@ def find_outlier(integers)
 
     # return odd
     if odd.length <= 1
-        return odd.to_i
+        return odd[0]
     elsif even.length <= 1
-        return even.to_i
+        return even[0]
     end
 end
 
