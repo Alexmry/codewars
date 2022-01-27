@@ -9,4 +9,17 @@ def find_outlier(integers)
             even << n
         end
     end
+
+    # return odd
+    if odd.length <= 1
+        return odd.to_i
+    elsif even.length <= 1
+        return even.to_i
+    end
 end
+
+puts "#{find_outlier([160, 3, 1719, 19, 11, 13, -21])}"
+puts "#{find_outlier([0, 1, 2])}"
+puts "#{find_outlier([1, 2, 3])}"
+
+puts "#{find_outlier([2, 4, 0, 100, 4, 11, 2602, 36])}"
