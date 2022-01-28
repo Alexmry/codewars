@@ -41,7 +41,7 @@ def solution(aircraftEmissions, flightItineraries, origin, destination)
         end
     end
 
-    return aircraft_min_carbon_emission
+    return aircraft_min_carbon_emission.sort.first
 
 end
 
