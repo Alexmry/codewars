@@ -1,5 +1,9 @@
 def unique_in_order(iterable)
   #your code here
+
+  arr = iterable.split("")
+  arr.uniq
+
 end
 
 
