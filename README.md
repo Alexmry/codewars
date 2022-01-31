@@ -9,3 +9,4 @@ https://github.com/adrianeyre/codewars/blob/master/Ruby/5KYU/BreakCamel.rb
 
 https://github.com/adrianeyre/codewars/blob/master/Ruby/6KYU/UniqueOrder.rb
 
+https://github.com/Manish-Giri/Codewars/blob/master/Ruby/extract-the-domain-name-from-a-url-1.rb
