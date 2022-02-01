@@ -17,5 +17,5 @@ def domain_name(url)
 #   return match_data[1]
 
     # URI.parse(url).host.split('.').last(2)[0]
-    URI.parse(url).host.split('.').first
+    URI.parse(url).host.split(".").first
 end
