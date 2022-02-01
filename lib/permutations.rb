@@ -34,3 +34,7 @@ end
 
 puts "#{permutations('aabb')}"
 # ['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa']
+
+
+# solution
+# string.chars.permutation.map(&:join).uniq
