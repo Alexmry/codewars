@@ -1,11 +1,11 @@
 def pig_it(text)
     result = []
     text.split(" ").each do |word|
-        new_word = word..split("").drop(1) << "ay"
+        new_word = word.split("").drop(1) << word.split("").first << "ay"
         result << new_word.join("")
     end
 
-    result.join("")
+    result.join(" ")
 end
 
 
