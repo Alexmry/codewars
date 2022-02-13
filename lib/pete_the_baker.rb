@@ -4,8 +4,10 @@ def cakes(recipe, available)
   # for each element if the recipe hash
   recipe.each do |ke, value|
     if available.key?(ke)
-       cake = available[ke] / value
+        cake = available[ke] / value
        cake_number << cake
+    else
+       cake_number << 0 
     end
   end
   # check if key? is true in available hash?
