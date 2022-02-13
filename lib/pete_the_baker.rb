@@ -1,17 +1,18 @@
 def cakes(recipe, available)
   #your code here
-  item_available = []
+  cake_number = []
   # for each element if the recipe hash
   recipe.each do |ke, value|
     if available.key?(ke)
-       item_available << value
+       cake = available[ke] / value
+       cake_number << cake
     end
   end
   # check if key? is true in available hash?
   # if it's true, compare the quantity
   # for the ingredient with the loweest quantity => return modulo
 
-  return item_available
+  return cake_number.sort.first.to_i
 end
 
 
