@@ -9,7 +9,11 @@ def scramble(s1,s2)
     end
   end
 
-  return array
+  if array = a1
+    return true
+  else 
+    false
+    end
 
 end
 
