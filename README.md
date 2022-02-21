@@ -12,3 +12,7 @@ https://github.com/adrianeyre/codewars/blob/master/Ruby/6KYU/UniqueOrder.rb
 https://github.com/Manish-Giri/Codewars/blob/master/Ruby/extract-the-domain-name-from-a-url-1.rb
 
 https://github.com/eirinikos/ruby-bites/blob/master/_codewars.rb
+
+https://github.com/adrianeyre/codewars/blob/master/Ruby/5KYU/Scramblies.rb
+
+
