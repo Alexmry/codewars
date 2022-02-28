@@ -1,5 +1,11 @@
 def sudoku(puzzle)
 
+    puzzle.each do |array|
+        array.each do |number|
+            
+        end
+    end
+
 end
 
 
